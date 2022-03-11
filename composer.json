@@ -1,0 +1,22 @@
+{
+    "name": "fangxing171122/ads",
+    "description": "demo",
+    "type": "library",
+    "license": "mit",
+    "authors": [
+        {
+            "name": "fangxing",
+            "email": "3405693134@qq.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "prefer-stable": "true",
+    "require": {
+      "php": ">=7.0"
+    },
+    "autoload": {
+    "psr-4": {
+      "User\\Client\\": "src/User/Client"
+    }
+  }
+}
