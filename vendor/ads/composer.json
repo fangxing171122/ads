@@ -1,0 +1,21 @@
+{
+    "name":"quality_score_ads",
+    "description":"a test composer library ",
+    "authors":[
+        {
+        "name": "fx"
+        }
+    ],
+    "license": "MIT",
+    "require": {
+        "php": ">=5.4"
+    },
+    "autoload": {
+        "psr-4": {
+            "ty\\": "src/"
+        },
+        "files": [
+            "src/function.php"
+        ]
+    }
+}
